@@ -2,4 +2,14 @@
 
 body{
     font-family: 'Titillium Web', sans-serif;
+    margin: 0px;
+}
+nav {
+    padding: 20px;
+    background: (0, 0, 0, 1);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
