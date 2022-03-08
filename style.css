@@ -16,11 +16,11 @@ nav {
     padding: 0px 20px;
     margin: 0px;
     text-decoration: none;
-    color: green;
+    color: rgb(0, 0, 0);
     font-size: 21px;
     
    }
    nav a:hover {
-    color: yellow;
+    color: rgb(0, 0, 0);
    }
    
