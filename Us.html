@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    <style>body {
+        background-color: rgb(163, 114, 241);
+      }
+      
+      h1 {
+        color: rgb(255, 255, 255);
+        margin-left: 40px;
+      }</style>
 </head>
 <body>
     <header>
@@ -17,5 +25,30 @@
 
         </nav>
     </header>
+<h1>About Us</h1>
+<p></p>
+
+<p> Do you know anyone who has recently been harassed by Police? </p>
+
+
+<form
+action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail"
+method="post"
+>
+    <input type="radio" id="Yes" name=" Has been harassed " value="Yes">
+    <label for="Yes"> Yes </label><br>
+    <input type="radio" id="No" name=" Has been harassed " value="No">
+    <label for="No"> No </label><br>
+<h2>Contact Us</h2>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" ><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname"><br><br>
+  <label for="email">Email:</label><br>
+  <input type="text" id="Email:" name="email"><br><br>
+  <input name="send-to" value="jlouis@brooklynsteamcenter.org" hidden>
+  <input type="submit">
+
+</form> 
 </body>
 </html>
