@@ -59,6 +59,9 @@ input[type=submit]{
             float: none;
         }
       }
+a.link{
+    color: rgb(136, 12, 167);
+}
       
      
      
